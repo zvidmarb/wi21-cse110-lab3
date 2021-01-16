@@ -2,31 +2,211 @@
 <html lang=en>
 <head>
     <title>Zeven Vidmar Barker</title>
-    <meta name="author" content="John Doe">
-    <meta name="description" content="The portfolio of Zeven Vidmar Barker, a Math-CS/Cog Sci student at UCSD">
+    <meta name="author" content="Zeven Vidmar Barker">
+    <meta name="description" content="The portfolio of Zeven Vidmar Barker, a Math-Computer Science/
+        Cognitive Science student at UCSD">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet"> <!--TODO-->
 </head>
-<body>
-    <nav>
+<body id="page-top">
+    <header>
         <!--LINKEDIN-->
+        <a href="https://www.linkedin.com/in/zevenvb"><img src="Symbol-LinkedIn.jpg" alt="LinkedIn" width=25 height=25></a>
         <!--GITHUB-->
+        <a href="https://github.com/zvidmarb"><img src="GitHub-Mark-120px-plus.png" alt="Github" width=25 height=25></a>
         <!--EMAIL-->
-
-        <!--NAME-->
-
-        <!--ABOUT-->
-        <!--PORTFOLIO-->
-        <!--RESUME-->
-
-    </nav>
+        <a href="mailto:zevenvidmarbarker@gmail.com"><img src="email-logo.png" alt="E-mail" width=25 height=25></a>
+        
+        <nav>
+            <a href="#page-top">ZEVEN VIDMAR BARKER</a>
+            <!--ABOUT-->
+            <button><a href="about.html">ABOUT</a></button>
+            <!--PORTFOLIO-->
+            <button><a href="portfolio.html">PORTFOLIO</a></button>
+            <!--RESUME-->
+            <button><a href="resume.pdf">RESUME</a></button>
+        </nav>
+    </header>
     <main>
-        <h1>Hi, I'm <em>Zeven!</em></h1></br>
-        <h2>I'm a third-year college student studying <strong>Math-Computer Science</strong> 
+        <h1>Hi, My name is <em>Zeven!</em></h1>
+        <p>I'm a third-year college student studying <strong>Math-Computer Science</strong> 
             and <strong>Cognitive Science</strong> at <strong>UC San Diego</strong>. 
-            I should <i>probably</i> get more sleep. </h2> <!--TODO: <b> -->
-        <img></img>
+            I should <i>probably</i> get more sleep. </p>
+        <hr>
+        This is where I would discuss my career-related experience!
+        
     </main> <!--blurb-->
+    <section>
+        <h2>Featured Projects</h2>
+        <aside><p>
+            <span class="NOTE">NOTE:</span> These should be small modules that lead to more details on another page. 
+        
+        </p></aside>
+        <div>
+        <h3>MRF Portal</h3>
+        <h4>Circle K International, Cal-Nev-Ha District - Technology Committee</h4>
+        <p>
+            <details>
+                <summary>blurb about the project</summary>
+                This is where I will give a <b>short</b> blurb about my work on the <i>Monthly Report Form</i> portal </details>
+        </p>
+        </div>
+        <div>
+        <h3>Google Form PDF Generator (WIP)</h3>
+        <p>
+            <details>
+                <summary>blurb about the project</summary>
+                This is where I will give a <b>short</b> blurb about my work on the <i>Monthly Report Form</i> portal </details>
+            <br>
+            </p>
+        </div>
+    
+    </section>
+
+    <section>
+        <br>
+        <h2>HTML Practice (cuz i can't think of implementations)</h2>
+        <picture>
+            <source srcset="zeven.jpg" media="(min-width: 400px)">
+            <img src="blurryzeven.jpeg" alt="a picture of me?">
+        </picture>
+        <ul>
+            <li>1</li>
+            <li>3</li>
+            <li>2</li>
+        </ul>
+        <ol>
+            <li>3</li>
+            <li>2</li>
+            <li>1</li>
+        </ol>
+        <figure>
+            <figcaption>listen to this 😳</figcaption>
+            <audio controls src="http://peal.io/download/v8gm2"></audio>
+            <video controls>
+                <source src="https://www.youtube.com/watch?v=qucZbA1oAL4">
+            </video>
+        </figure>
+
+        <br><br>
+
+        <h4>google</h4>
+        <iframe title="google" src="https://google.com" width="300" height="200"></iframe>
+        
+        <h4>
+            <code><pre>
+        while(true):
+            if(do):
+                don't 
+            else:
+                do
+            </pre></code>
+        </h4>
+       <table>
+           <caption>Some Favorites</caption>
+           <colgroup>
+            <col>
+            <col span="3" id="first-three-cols">
+            </colgroup>
+            <tr>
+                <th scope="row">Movies/Shows</th>
+                <td>The Eric Andre Show</td>
+                <td>Avatar</td>
+                <td>Demon Slayer</td>
+                <td>LEGION</td>
+                <td>Into the Spiderverse</td>
+            </tr>
+            <tr>
+                <th scope="row">Artists</th>
+                <td>Denzel Curry</td>
+                <td>BROCKHAMPTON</td>
+                <td>88rising</td>
+                <td>JPEGMAFIA</td>
+                <td>Run the Jewels</td>
+            </tr>
+       </table>
+       <br>
+       <h3>What do you think?</h3>
+       <form>
+        <fieldset>
+            <legend>First: Information about you!</legend>
+            <label for="name">What is your name?</label>
+            <input list="names" type="text" id="name" name="name" required>
+            <datalist id="names">
+                <option value="zeven">
+                <option value="🐒">
+            </datalist>
+            
+            <br><br>
+
+            <label for="email">What is your e-mail?</label>
+            <input type="email" id="email" name="email">
+            
+            <br><br>
+            
+            <label for="birthday">What is your birthday?</label>
+            <input type="date" id="birthday" name="birthday">
+            
+            <br><br>
+            
+            <label for="fav-color">What is your favorite color?</label>
+            <input type="color">
+
+            <br><br>
+            <label for="number">What is your favorite number?</label>
+            <input type="number" id="number" name="number">
+
+            
+        </fieldset>
+        
+        <fieldset>
+            <legend>Now: Give your opinion!</legend>
+            
+            <label for="checkbox">Do you like checkboxes?</label>
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <br><br>
+
+            <fieldset>
+            <legend>Do you like radio buttons?</legend>
+            <label for="yes">yessir</label>
+            <input type="radio" id="yes" name="yes">
+            <br>
+            <label for="no">no</label>
+            <input type="radio" id="no" name="no">
+            </fieldset>
+            <br><br>
+
+            <label for="select">is he valid? 🤔🥶🙌</label>
+            <select id="select" name="select">
+                <option value="">please select</option>
+                <option value="no">no way he is definitely not valid ❗🥱🙅‍♂️</option>
+                <option value="yes">yessir 🥶🥶🥵😳🙌🙌🙌</option>
+            
+                <optgroup label="🐵🐵">
+                    <option value="...">🐒🐒🐒🐒🐒</option>
+                </optgroup>
+            </select>
+            <br><br>
+
+            <label for="essay">Please submit an essay in MLA Format:</label>
+            <input type="file" id="essay" name="essay">
+            <br><br>
+
+            <label for="comments">Anything else you'd like to say to me? 😔</label>
+            <br>
+            <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
+        </fieldset>
+        <br>
+        <input type="image" id="submit" alt="submit" src="submit.png" height=35>
+        <input type="reset">
+        
+       </form>
+        <template>
+            <p>you aren't supposed to see this, there's nothing to activate it!</p>
+        </template>
+    </section>
+    
+    
 
 
 
@@ -34,6 +214,16 @@
 
 
 </body>
-
+<footer>
+    <br>
+    <br>
+<!--LINKEDIN-->
+<a href="https://www.linkedin.com/in/zevenvb"><img src="Symbol-LinkedIn.jpg" alt="LinkedIn" width=25 height=25></a>
+<!--GITHUB-->
+<a href="https://github.com/zvidmarb"><img src="GitHub-Mark-120px-plus.png" alt="Github" width=25 height=25></a>
+<!--EMAIL-->
+<a href="mailto:zevenvidmarbarker@gmail.com"><img src="email-logo.png" alt="E-mail" width=25 height=25></a>
+<p>pls give css priviledges 😳</p>
+</footer>
 
 </html>
