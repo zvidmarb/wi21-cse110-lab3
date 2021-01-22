@@ -1,0 +1,39 @@
+/*the intro blurb*/
+main {
+    background-color: #8CACBA;
+    display: block;
+    
+}
+hr {
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+#featured {
+    background-color: rgba(150,200,200,0.9);
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+/*#nav-bar {
+   
+}*/
+.nav-buttons {
+    text-decoration: none;
+    
+    font-size: 18px;
+
+}
+
+table,th,td {
+    border-width: 1px;
+    border-color: hsl(100, 75%, 30%);
+    border-style: solid;
+    border-radius: 4%;
+}

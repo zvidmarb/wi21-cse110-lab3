@@ -6,25 +6,39 @@
     <meta name="description" content="The portfolio of Zeven Vidmar Barker, a Math-Computer Science/
         Cognitive Science student at UCSD">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet"> <!--TODO-->
+    <link href="style.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+        #title {
+            font-family: 'Yusei Magic', sans-serif;
+            font-size: 28px;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body id="page-top">
     <header>
-        <!--LINKEDIN-->
-        <a href="https://www.linkedin.com/in/zevenvb"><img src="Symbol-LinkedIn.jpg" alt="LinkedIn" width=25 height=25></a>
-        <!--GITHUB-->
-        <a href="https://github.com/zvidmarb"><img src="GitHub-Mark-120px-plus.png" alt="Github" width=25 height=25></a>
-        <!--EMAIL-->
-        <a href="mailto:zevenvidmarbarker@gmail.com"><img src="email-logo.png" alt="E-mail" width=25 height=25></a>
-        
         <nav>
-            <a href="#page-top">ZEVEN VIDMAR BARKER</a>
-            <!--ABOUT-->
-            <a href="about.html">ABOUT</a>
-            <!--PORTFOLIO-->
-            <a href="portfolio.html">PORTFOLIO</a>
-            <!--RESUME-->
-            <a href="resume.pdf">RESUME</a>
+            <ul>
+                <!--LINKEDIN-->
+                <li><a href="https://www.linkedin.com/in/zevenvb"><img src="media/Symbol-LinkedIn.jpg" alt="LinkedIn" width=25 height=25></a></li>
+                <!--GITHUB-->
+                <li><a href="https://github.com/zvidmarb"><img src="media/GitHub-Mark-120px-plus.png" alt="Github" width=25 height=25></a></li>
+                <!--EMAIL-->
+                <li><a href="mailto:zevenvidmarbarker@gmail.com"><img src="media/email-logo.png" alt="E-mail" width=25 height=25></a></li>
+            
+            
+            
+                <div id="nav-buttons">
+                    <li><a href="#page-top" id="title">ZEVEN VIDMAR BARKER</a></li>
+                    <!--ABOUT-->
+                    <li><a href="about.html" class="nav-buttons">ABOUT</a></li>
+                    <!--PORTFOLIO-->
+                    <li><a href="portfolio.html" class="nav-buttons">PORTFOLIO</a></li>
+                    <!--RESUME-->
+                    <li><a href="media/resume.pdf" class="nav-buttons">RESUME</a></li>
+                </div>
+            </ul>
         </nav>
     </header>
     <main>
@@ -36,7 +50,7 @@
         This is where I would discuss my career-related experience!
         
     </main> <!--blurb-->
-    <section>
+    <section id="featured">
         <h2>Featured Projects</h2>
         <aside>
             <p>
@@ -67,8 +81,8 @@
         <br>
         <h2>HTML Practice (cuz i can't think of implementations)</h2>
         <picture>
-            <source srcset="blurryzeven.jpeg" media="(min-width: 400px)">
-            <img src="zeven.jpg" alt="a picture of me?" width="400" height="600">
+            <source srcset="media/blurryzeven.jpeg" media="(min-width: 400px)">
+            <img src="media/zeven.jpg" alt="a picture of me?" width="400" height="600">
         </picture>
         <ul>
             <li>1</li>
@@ -84,7 +98,7 @@
             <figcaption>listen to this 😳</figcaption>
             <audio controls src="http://peal.io/download/v8gm2"></audio>
             <video controls>
-                <source src="sample-mp4-file.mp4">
+                <source src="media/sample-mp4-file.mp4">
             </video>
         </figure>
 
@@ -129,6 +143,7 @@
                 <td>Run the Jewels</td>
             </tr>
        </table>
+       
        <br>
        <h3>What do you think?</h3>
        <form>
@@ -201,7 +216,7 @@
             <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
         </fieldset>
         <br>
-        <input type="image" id="submit" alt="submit" src="submit.png" height=35>
+        <input type="image" id="submit" alt="submit" src="media/submit.png" height=35>
         <input type="reset">
         
        </form>
@@ -220,12 +235,12 @@
         <br>
         <br>
         <!--LINKEDIN-->
-        <a href="https://www.linkedin.com/in/zevenvb"><img src="Symbol-LinkedIn.jpg" alt="LinkedIn" width=25 height=25></a>
+        <a href="https://www.linkedin.com/in/zevenvb"><img src="media/Symbol-LinkedIn.jpg" alt="LinkedIn" width=25 height=25></a>
         <!--GITHUB-->
-        <a href="https://github.com/zvidmarb"><img src="GitHub-Mark-120px-plus.png" alt="Github" width=25 height=25></a>
+        <a href="https://github.com/zvidmarb"><img src="media/GitHub-Mark-120px-plus.png" alt="Github" width=25 height=25></a>
         <!--EMAIL-->
-        <a href="mailto:zevenvidmarbarker@gmail.com"><img src="email-logo.png" alt="E-mail" width=25 height=25></a>
-        <p>pls give css priviledges 😳</p>
+        <a href="mailto:zevenvidmarbarker@gmail.com"><img src="media/email-logo.png" alt="E-mail" width=25 height=25></a>
+        <p>pls give js priviledges 😳</p>
     </footer>
 </body>
 
