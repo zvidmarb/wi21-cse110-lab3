@@ -1,3 +1,6 @@
+* {
+   color: hsla(180,9.7,6.1,1);
+}
 /*the intro blurb*/
 main {
     background-color: #8CACBA;
@@ -13,13 +16,17 @@ hr {
     background-color: rgba(150,200,200,0.9);
 
 }
-nav ul {
+nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-li {
+nav li {
     display: inline;
+}
+li > a {
+    color: rgb(0,0,0);
+    
 }
 /*#nav-bar {
    
@@ -31,9 +38,17 @@ li {
 
 }
 
+
+
 table,th,td {
     border-width: 1px;
     border-color: hsl(100, 75%, 30%);
     border-style: solid;
     border-radius: 4%;
+}
+
+.feat-module {
+    border-style: solid;
+    border-radius: 10px;
+    padding-block-end: 10px;
 }
